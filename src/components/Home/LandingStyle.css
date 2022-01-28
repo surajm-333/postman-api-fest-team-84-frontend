@@ -1,0 +1,33 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+h1{
+    font-size: 60pt;
+}
+.LandingPage{
+    position: relative;
+    text-align: center;
+    color: rgb(249, 247, 253);  
+  }
+#bg-image
+{
+    width: 100vw;
+    height: 100vh;
+}
+.subText{
+    margin: 7%;
+}
+.spantext
+{
+    margin-left: 15%;
+    color: black;
+    font-weight: 700;
+}
+.btn
+{
+    margin-left: 10%;
+}
+  

@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/Navbar/navbar';
+import LandingPage from './components/Home/LandingPage';
+import HomePage from './components/Home/HomePage';
+import BookImgCard from './components/Home/BookImgCard';
+import Books from './components/Home/books';
+import BookCard from './components/Home/BookCard';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <NavBar/>
+       {/* <LandingPage/> */}
+       {/* <HomePage/> */}
+       {/* <BookImgCard/> */}
+       <Books genera={"Sci-fi"}/>
     </div>
   );
 }
