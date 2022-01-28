@@ -12,11 +12,13 @@ import HomePage from './components/Home/HomePage';
 import BookImgCard from './components/Home/BookImgCard';
 import Books from './components/Home/books';
 import BookCard from './components/Home/BookCard';
+import UploadBook from './components/UploadForm/UploadBook';
 
 function App() {
   return (
     <>
       <NavBar />
+      {/* <UploadBook/> */}
       <Router>
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
